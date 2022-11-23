@@ -1,0 +1,35 @@
+.card-character{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 56px;
+}
+.name{
+    padding: 0 0.25rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem 1rem 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row{
+    display: flex;
+    gap: 0.2rem;
+    align-items: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+}
+.estado , .especie {
+    font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.paginacion{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+.paginacion.center{
+    margin-bottom: 4rem;
+    background-color: red;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: skyblue;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
